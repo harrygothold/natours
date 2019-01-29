@@ -46,18 +46,15 @@
 
 html {
   font-size: 62.5%; }
-  @media (max-width: 600px) {
+  @media (max-width: 75em) {
+    html {
+      font-size: 56.25%; } }
+  @media (max-width: 56.25em) {
     html {
       font-size: 50%; } }
-  @media (max-width: 900px) {
+  @media (min-width: 112.5em) {
     html {
-      font-size: 60%; } }
-  @media (max-width: 1200px) {
-    html {
-      font-size: 70%; } }
-  @media (min-width: 1800px) {
-    html {
-      font-size: 80%; } }
+      font-size: 75%; } }
 
 body {
   box-sizing: border-box; }
@@ -741,7 +738,7 @@ body {
 
 .navigation__checkbox:checked + .navigation__button .navigation__icon::after {
   top: 0;
-  transform: rotate(-deg); }
+  transform: rotate(-135deg); }
 
 .section-about {
   background-color: #f7f7f7;
